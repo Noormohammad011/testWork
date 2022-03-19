@@ -10,9 +10,9 @@ function App() {
     (((fahrenheit - 32) * 5) / 9).toFixed(2)
 
   const check = (temparatuer) => {
-    if (temparatuer < 15) {
+    if (temparatuer <= 15) {
       return 'cold'
-    } else if (temparatuer >= 15 && temparatuer < 30) {
+    } else if (temparatuer > 15 && temparatuer <= 30) {
       return 'sunny'
     } else {
       return 'hot'
@@ -43,6 +43,11 @@ function App() {
       id: '5',
       date: '10-05-03',
       temparature: '-2',
+    },
+    {
+      id: '6',
+      date: '10-06-03',
+      temparature: '15',
     },
   ]
 
