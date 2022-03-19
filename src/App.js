@@ -68,6 +68,7 @@ function App() {
                 </h1>
                 <h2>Temparature Info: {check(x.temparature)}</h2>
               </div>
+              <hr />
             </>
           ))
         : data?.map((x) => (
@@ -80,6 +81,7 @@ function App() {
                 </h1>
                 <h2> Temparature Info:{check(x.temparature)}</h2>
               </div>
+              <hr />
             </>
           ))}
     </div>
