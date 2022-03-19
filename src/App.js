@@ -27,7 +27,7 @@ function App() {
     {
       id: '2',
       date: '10-03-03',
-      temparature: '14',
+      temparature: '31',
     },
     {
       id: '3',
